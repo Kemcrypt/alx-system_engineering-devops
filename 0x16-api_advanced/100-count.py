@@ -66,4 +66,4 @@ def count_words(subreddit, word_list, dictionary=None):
     sorted_items = sorted(dictionary.items(), key=lambda kv: (-kv[1], kv[0]))
     for item in sorted_items:
         if item[1] > 0:
-            print("{}: {}".format(item[0], item
+            print("{}: {}".format(item[0], item[1]))
