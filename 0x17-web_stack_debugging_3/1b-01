@@ -1,0 +1,5 @@
+root@6629f9f80ddf:~/alx-system_engineering-devops/0x10-https_ssl# cat 1b-01
+#!/usr/bin/env bash
+ # Bash script that uses ssh to connect to your server using the private
+ # key ~/.ssh/school with the user ubuntu
+  ssh ubuntu@54.237.57.88 -i ~/.ssh/school
